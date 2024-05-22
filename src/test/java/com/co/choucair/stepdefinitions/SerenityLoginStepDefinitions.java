@@ -10,7 +10,7 @@ import io.cucumber.java.en.Then;
 import net.serenitybdd.screenplay.actions.Open;
 import net.serenitybdd.screenplay.actors.OnStage;
 
-import static com.co.choucair.userinterfaces.SerenityLoginPage.TXT_VALIDATION;
+import static com.co.choucair.userinterfaces.LoginPage.TXT_VALIDATION;
 import static com.co.choucair.utils.GlobalData.*;
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static org.hamcrest.Matchers.containsString;
