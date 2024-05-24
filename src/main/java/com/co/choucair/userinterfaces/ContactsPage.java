@@ -27,9 +27,7 @@ public class ContactsPage {
     public static final Target BTN_SAVE = Target.the("")
             .locatedBy("//div[@class='tool-button save-and-close-button icon-tool-button']");
     public static final Target LBL_VALIDATION= Target.the("")
-            .locatedBy("//div[@class='slick-cell l2 r2']//*[contains(text(),'{0}')]");
+            .locatedBy("//div[@class='slick-cell l2 r2']//a[contains(text(),'{0}')]");
 
 
-    public static final Target TXT_USERNAME = Target.the("field for username")
-            .locatedBy("//input[@class='select2-input']");
 }

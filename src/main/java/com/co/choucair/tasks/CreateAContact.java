@@ -20,6 +20,7 @@ import static com.co.choucair.userinterfaces.ContactsPage.*;
 import static com.co.choucair.userinterfaces.ContactsPage.BTN_ORGANIZATION;
 import static com.co.choucair.userinterfaces.ContactsPage.BTN_SAVE;
 import static com.co.choucair.userinterfaces.ContactsPage.LBL_VALIDATION;
+import static com.co.choucair.userinterfaces.SupplierPage.BTN_CREATE_NEW_SUPPLIER;
 import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
 
 public class CreateAContact implements Task {

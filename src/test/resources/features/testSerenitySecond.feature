@@ -13,7 +13,7 @@ Feature: Create a new contact
     Then the user will see the contact created with <firstName>
     Examples:
       | title         | firstName | lastName | email            | id  | userName      |
-      | Administrator | David     | Delta    | jane@example.com | 020 | stephen.white |
+      | Administrator | Andres     | Delta    | jane@example.com | 020 | stephen.white |
 
 
 
